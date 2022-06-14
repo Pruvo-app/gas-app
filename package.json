@@ -1,0 +1,29 @@
+{
+    "name": "collect",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "gas": "webpack --config webpack.gas.js ",
+        "push": "npm run gas && clasp push",
+        "deploy": "npm run gas && clasp push && clasp deploy"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.4.0",
+        "@babel/preset-env": "^7.4.2",
+        "babel-loader": "^8.0.5",
+        "copy-webpack-plugin": "^5.0.1",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.0"
+    },
+    "dependencies": {
+        "@types/google-apps-script": "^1.0.48",
+        "collect.js": "^4.34.0",
+        "laravel-js-str": "^1.0.6",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.3"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "timeZone": "America/Bahia",
+    "dependencies": {
+      "libraries": [
+        {
+          "userSymbol": "Gexpress",
+          "version": "36",
+          "libraryId": "1Lm_jNmD2FWYF-Kgj7AdHVvLEVXZ4c5AXwzd1KJSb48scn0HLBq64um7S"
+        },
+        {
+          "userSymbol": "Tamotsu",
+          "version": "32",
+          "libraryId": "1OiJIgWlrg_DFHFYX_SoaEzhFJPCmwbbfEHEqYEfLEEhKRloTNVJ-3U4s"
+        }
+      ]
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8"
+  }
